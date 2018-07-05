@@ -8,6 +8,10 @@ $(document).ready(function() {
       customer: $(this).children(".custom-input").val()
     };
 
+    if(!burgerInfo.customer){ // empty input
+      return;
+    }
+
     $.ajax({
       method: "PUT",
       url: "/burgers/update",

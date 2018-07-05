@@ -40,6 +40,10 @@ router.get("/burgers", function(req, res) {
 // post route to create burgers
 router.post("/burgers/create", function(req, res) {
   // edited burger create to add in a burger_name
+  if(!req.body.burger_name){ // empty name
+    return res.redirect("/");
+  }
+
   db.Burger.create({
     burger_name: req.body.burger_name
   })

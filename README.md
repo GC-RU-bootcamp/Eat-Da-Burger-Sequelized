@@ -14,9 +14,9 @@ This application uses NPM modules:
 
 This application and database is deployed at 
 
-* https://young-cove-89087.herokuapp.com/ and
+* https://gorgeous-acadia-72915.herokuapp.com and
 * https://gc-ru-bootcamp.github.io/Eat-Da-Burger/index.html
 
 And repos at:
-* https://github.com/GC-RU-bootcamp/Eat-Da-Burger and
-* https://git.heroku.com/young-cove-89087.git
+* https://github.com/GC-RU-bootcamp/Eat-Da-Burger-Sequelized and
+* https://git.heroku.com/gorgeous-acadia-72915.git
